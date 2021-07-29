@@ -21,6 +21,9 @@ class HomeController extends Controller
         if ($op == 'soma') {
             return view('soma');
         }
+        if ($op == 'mult') {
+            return view('mult');
+        }
         return view('sub');
     }
     

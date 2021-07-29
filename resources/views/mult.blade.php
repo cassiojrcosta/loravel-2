@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Multiplicação</h1>
-    <form action="/Multiplicação" method="post">
+    <form action="/mult" method="post">
         @csrf 
       <input type="number" name="num1">
       *

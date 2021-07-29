@@ -13,6 +13,7 @@
         body {
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background-image: url(https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=754&q=80);
@@ -21,6 +22,7 @@
             height: 150px;
             padding: 20px;
             display: flex;
+          
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
